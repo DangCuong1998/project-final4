@@ -600,14 +600,21 @@ body {
 .header .header-icon {
   display: flex;
   justify-content: space-between;
-  margin-top: 43px;
+  margin-top: 42px;
+  margin-left: 51px;
 }
 .header .header-icon .icon-item {
   color: #ffffff;
-  margin-left: 27px;
+  margin-left: 18px;
 }
 .header .header-icon .icon-item i {
   margin-right: 27px;
+}
+.header .header-icon .icon-item i:nth-child(3) {
+  margin-right: 0;
+}
+.header .header-icon .last-icon-header i {
+  margin-right: 0px;
 }
 .header .header-icon .icon-item:first-child {
   margin-left: 0px;

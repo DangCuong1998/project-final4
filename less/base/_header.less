@@ -1,5 +1,5 @@
 .header {
-    background-color: rgba(0,0,0,.6);
+    background-color: rgba(0, 0, 0, .6);
     height: 101px;
     width: 100%;
     z-index: 999;
@@ -13,7 +13,8 @@
     .header-logo {
         margin-top: 26px;
         margin-right: 10px;
-        img{
+
+        img {
             width: 100%;
         }
     }
@@ -63,6 +64,8 @@
                 padding: 0 26px;
                 margin-top: 20px;
 
+
+
                 a {
                     font-family: 'Poppins';
                     font-size: 16px;
@@ -101,20 +104,36 @@
     .header-icon {
         display: flex;
         justify-content: space-between;
-        margin-top: 43px;
-
-
+        margin-top: 42px;
+        margin-left: 51px;
 
         .icon-item {
             color: @text-color;
-            margin-left: 27px;
-            i{
+            margin-left: 18px;
+
+            i {
                 margin-right: 27px;
+            }
+
+            i:nth-child(3) {
+                margin-right: 0;
+            }
+
+
+        }
+
+        .last-icon-header {
+            i {
+                margin-right: 0px;
             }
         }
 
         .icon-item:first-child {
             margin-left: 0px;
         }
+
+
+
+
     }
 }
